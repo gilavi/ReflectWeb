@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="20 10 300 300">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.592" cy="0.07" r="1.241" gradientTransform="matrix(-0.383, 0.924, -0.569, -0.236, 0.859, -0.46)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9e3efe"/>
+      <stop offset="0.242" stop-color="#9b42fe"/>
+      <stop offset="1" stop-color="#21d4fd"/>
+    </radialGradient>
+  </defs>
+  <g id="Group_218" data-name="Group 218" transform="translate(-136.296 -2197.83)">
+    <g id="Group_217" data-name="Group 217" transform="translate(196.296 2241.337)">
+      <g id="Group_204" data-name="Group 204" transform="translate(0 0)">
+        <g id="Group_203" data-name="Group 203" transform="translate(0 0)">
+          <path id="Subtraction_4" data-name="Subtraction 4" d="M15.965,73.849V45.761H30.226a2.249,2.249,0,0,0,0-4.5H0L31.285,0V25.66H20.605a2.249,2.249,0,0,0,0,4.5H50.431a2.273,2.273,0,0,0,.248-.013h.38l-35.091,43.7Z" transform="translate(0 16.492)" opacity="0.4" fill="url(#radial-gradient)"/>
+          <path id="Subtraction_2" data-name="Subtraction 2" d="M15.965,73.849V45.761H30.226a2.249,2.249,0,0,0,0-4.5H0L31.285,0V25.66H20.605a2.249,2.249,0,0,0,0,4.5H50.431a2.273,2.273,0,0,0,.248-.013h.38l-35.091,43.7Z" transform="translate(0)" fill="url(#radial-gradient)"/>
+        </g>
+      </g>
+    </g>
+    <g id="maccursor" transform="translate(159 2205)">
+      <path id="Path_753" data-name="Path 753" d="M8.2,80.253V4.9L62.831,59.531H30.806L28.922,60Z" transform="translate(-8.2 -4.9)" fill="#fff"/>
+      <path id="Path_754" data-name="Path 754" d="M48.089,62.776,31.135,69.84,9,17.564,26.425,10.5Z" transform="translate(-5.232 15.873)" fill="#fff"/>
+      <rect id="Rectangle_272" data-name="Rectangle 272" width="9.419" height="37.676" transform="translate(13.329 44.235) rotate(-22.773)"/>
+      <path id="Path_755" data-name="Path 755" d="M9.2,7.3V60.047L23.329,46.389l1.884-.471H47.818Z" transform="translate(-4.49 4.003)"/>
+    </g>
+  </g>
+</svg>

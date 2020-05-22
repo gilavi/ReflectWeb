@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ავტორიზაცია</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+    <link href="styles" rel="stylesheet">
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/js/mdb.min.js"></script>
+</head>
+<body class="backgroundReg">
+<div ></div>
+<header style="height: auto">
+    <nav class="navbar navbar-expand fixed" style="background-color: #fff !important; height: 10vh !important; ">
+        <a class="navbar-brand ml-5 mt-2" href="/">
+            <img style="width: 8vw; height: 8vh" src="images/refIcon.svg"/>
+        </a>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav align-items-center w-75" style="height: 12vh">
+                <li class="nav-item w-50">
+                    <a class="nav-link" href="#" style="color: black !important;">კონტაქტი
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item w-50">
+                    <a class="nav-link" style="color: black !important;" href="#">ფასები</a>
+                </li>
+                <li class="nav-item  w-50">
+                    <a class="nav-link w-100" style="color: black !important;" href="#">ჩვენს შესახებ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main class="mt-5">
+    <div class="row h-100 w-100">
+        <div class="col-4"></div>
+        <form class="border border-light col-4 mt-2 p-5 white needs-validation" style="border: none !important;">
+
+            <p class="h4 mb-4 text-center">ავტორიზაცია</p>
+
+            <input type="email" id="defaultLoginFormEmail" class="form-control mb-1" placeholder="შეიყვანეთ ელ-ფოსტა" required>
+            <div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                    <label class="custom-control-label my-3" for="defaultLoginFormRemember">დამახსოვრება</label>
+                </div>
+            </div>
+            <input type="password" id="RegistrationFormPassword" class="form-control mb-4" placeholder="შეიყვანეთ პაროლი" minlength="9" required>
+
+
+            <div class="d-flex justify-content-between">
+
+                <div>
+                    <a href="#">პაროლის აღდგენა</a>
+                </div>
+
+            </div>
+
+
+            <a id="submitLogin" class="btn btn-info btn-block my-3" style="background-color: #DFB19B !important;" type="submit" href="#">შესვლა</a>
+            <a id="submitRegistration" class="btn btn-info btn-block " style="background-color: #b0bec5 !important;" href="registration">რეგისტრაცია</a>
+
+        </form>
+        <div class="col-4"></div>
+    </div>
+</main>
+<script type="text/javascript" src="javascript"></script>
+</body>
+</html>

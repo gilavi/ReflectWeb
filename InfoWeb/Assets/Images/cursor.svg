@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="272" height="305.61" viewBox="0 0 272 305.61">
+  <defs>
+    <radialGradient id="radial-gradient" cx="1" cy="0.017" r="2.131" gradientTransform="matrix(-0.327, 0.945, -1.441, -0.499, 1.352, -0.919)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b721ff"/>
+      <stop offset="1" stop-color="#21d4fd"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.063" cy="0.948" r="2.08" gradientTransform="matrix(0.987, 0.162, -0.135, 0.822, 0.128, 0.159)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="1.27" cy="-0.272" r="2.297" gradientTransform="matrix(-0.892, 0.452, -0.219, -0.432, 1.892, -0.452)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g id="Group_202" data-name="Group 202" transform="translate(-229.328 -1031.718)">
+    <g id="Group_201" data-name="Group 201" transform="translate(229 1031.718)">
+      <path id="Path_740" data-name="Path 740" d="M159.5,5.718V194.2H15.758Z" transform="translate(4.812 -5.718)" fill="url(#radial-gradient)"/>
+      <path id="Path_741" data-name="Path 741" d="M150.859,0V188.486H0Z" transform="translate(252.04 305.61) rotate(180)" fill="url(#radial-gradient-2)"/>
+      <path id="Path_743" data-name="Path 743" d="M-6116.26,6933.131l50.756-63.388v-54.48h-50.779Z" transform="translate(6217.454 -6627.594)" fill="url(#radial-gradient-3)"/>
+      <rect id="Rectangle_255" data-name="Rectangle 255" width="173" height="18" rx="9" transform="translate(99.328 105.592)" fill="#fff"/>
+      <rect id="Rectangle_256" data-name="Rectangle 256" width="173" height="18" rx="9" transform="translate(0.328 170.592)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

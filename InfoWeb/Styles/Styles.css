@@ -1,0 +1,132 @@
+.intro-2 {
+    background: url('images/backgroundreg.jpg')no-repeat center center;
+    cursor: url('images/curv2.svg'), auto !important;
+    background-size: cover;
+}
+a {
+    cursor: url('images/curv2.svg'), auto !important;
+
+}
+
+.backgroundReg {
+    background: url('images/backgroundreg.jpg') center;
+    height: 100%;
+    background-size: cover;
+
+}
+.module {
+    cursor: url('images/curv2.svg'), auto !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+header,
+.view {
+    height: 88%;
+}
+
+html {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type:y mandatory;
+}
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none !important; /* Override default look */
+    appearance: none !important;
+    background: #DFB19B !important; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.custom-range::-moz-range-thumb {
+    background: #DFB19B !important; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.active {
+    background-color: #DFB19B !important;
+}
+.nav-link{
+    font-size: 14px !important;
+}
+.profile{
+    margin-vertical: 1vw;
+    width: 19vw;
+    margin-right: 3vw;
+}
+
+.materialtextbox{
+
+}
+.materialtextbox:focus{
+    background: rgba(255, 255, 255, 0) !important;
+}
+.MainH{
+    font-family: "Helvetica Neue";
+    font-weight: bold;
+    font-size: 50px;
+}
+.MainI{
+    margin-left: 40vw;
+    margin-right: 40vw;
+    align-items: center;
+    justify-content: center;
+}
+.BackH{
+    position: absolute;
+    font-size: 300px;
+    font-family: "HelveticaNeue-CondensedBold";
+    color: #FD1F1B;
+    opacity: 0.2;
+    z-index: -1;
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transform: perspective(500px) rotateY(10deg) rotateX(45deg) rotateZ(1deg);
+}
+
+.float {
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 50px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+
+.spin {
+    -webkit-animation-name: Spinning;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: unset;
+    -webkit-animation-timing-function: linear;
+}
+.spin2 {
+    -webkit-animation-name: Spinning2;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: unset;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes Spinning{
+    0% {
+        -webkit-transform: rotate(270deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes Spinning2{
+    0% {
+        -webkit-transform: rotate(-270deg);
+    }
+    100% {
+        -webkit-transform: rotate(-360deg);
+    }
+}
